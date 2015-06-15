@@ -1,0 +1,8 @@
+#ENG how to fix FullscreenVideosAwesome
+#IT per risolvere il problema dei video a schermo intero in awesome wm
+#ENG  add this code in your ~ /.config/awesome/rc.lua
+#IT  aggiungi questo script nel tuo file  ~ /.config /awesome/rc.lua
+
+{ rule = { instance = "plugin-container" },
+  properties = { floating = true,
+                 focus = yes } },
